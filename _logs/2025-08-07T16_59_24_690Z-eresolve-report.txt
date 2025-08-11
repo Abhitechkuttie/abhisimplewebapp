@@ -1,0 +1,24 @@
+'Log files:
+C:\Users\DELL\AppData\Local\npm-cache\_logs\2025-08-07T16_59_24_690Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: apollo-server-express@3.13.0
+Found: express@5.1.0
+node_modules/express
+  express@"^5.1.0" from the root project
+
+Could not resolve dependency:
+peer express@"^4.17.1" from apollo-server-express@3.13.0
+node_modules/apollo-server-express
+  apollo-server-express@"^3.13.0" from the root project
+
+Conflicting peer dependency: express@4.21.2
+node_modules/express
+  peer express@"^4.17.1" from apollo-server-express@3.13.0
+  node_modules/apollo-server-express
+    apollo-server-express@"^3.13.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

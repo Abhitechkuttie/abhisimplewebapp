@@ -1,0 +1,75 @@
+'Log files:
+C:\Users\DELL\AppData\Local\npm-cache\_logs\2025-08-03T18_18_27_965Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: expo-router@2.0.15
+Found: expo@53.0.20
+node_modules/expo
+  peer expo@"*" from expo-asset@11.1.7
+  node_modules/expo-asset
+    expo-asset@"~11.1.7" from expo@53.0.20
+  peer expo@"*" from expo-constants@17.1.7
+  node_modules/expo-asset/node_modules/expo-constants
+    expo-constants@"~17.1.7" from expo-asset@11.1.7
+    node_modules/expo-asset
+      expo-asset@"~11.1.7" from expo@53.0.20
+  peer expo@"*" from expo-constants@14.4.2
+  node_modules/expo-constants
+    expo-constants@"~14.4.2" from expo-linking@5.0.2
+    node_modules/expo-linking
+      expo-linking@"~5.0.2" from the root project
+    expo-constants@"~14.4.2" from the root project
+  peer expo@"*" from expo-file-system@18.1.11
+  node_modules/expo-file-system
+    expo-file-system@"~18.1.11" from expo@53.0.20
+  peer expo@"*" from expo-font@13.3.2
+  node_modules/expo-font
+    expo-font@"~13.3.2" from expo@53.0.20
+    peer expo-font@"*" from @expo/vector-icons@14.1.0
+    node_modules/expo/node_modules/@expo/vector-icons
+      @expo/vector-icons@"^14.0.0" from expo@53.0.20
+  peer expo@"*" from expo-head@0.0.20
+  node_modules/expo-head
+    expo-head@"0.0.20" from expo-router@2.0.15
+    node_modules/expo-router
+      expo-router@"^2.0.0" from the root project
+  peer expo@"*" from expo-keep-awake@14.1.4
+  node_modules/expo-keep-awake
+    expo-keep-awake@"~14.1.4" from expo@53.0.20
+  peer expo@"*" from expo-splash-screen@0.20.5
+  node_modules/expo-splash-screen
+    expo-splash-screen@"~0.20.2" from expo-router@2.0.15
+    node_modules/expo-router
+      expo-router@"^2.0.0" from the root project
+    expo-splash-screen@"~0.20.5" from the root project
+  peer expo@"*" from expo-updates@0.18.19
+  node_modules/expo-updates
+    expo-updates@"~0.18.19" from the root project
+  peer expo@"*" from expo-updates-interface@0.10.1
+  node_modules/expo-updates-interface
+    expo-updates-interface@"~0.10.0" from expo-updates@0.18.19
+    node_modules/expo-updates
+      expo-updates@"~0.18.19" from the root project
+  peer expo@"*" from expo-constants@17.1.7
+  node_modules/expo/node_modules/expo-constants
+    expo-constants@"~17.1.7" from expo@53.0.20
+  expo@"^53.0.20" from the root project
+  peer expo@"*" from expo-linear-gradient@12.3.0
+  node_modules/expo-linear-gradient
+    expo-linear-gradient@"~12.3.0" from the root project
+
+Could not resolve dependency:
+peer expo@"^49.0.0" from expo-router@2.0.15
+node_modules/expo-router
+  expo-router@"^2.0.0" from the root project
+
+Conflicting peer dependency: expo@49.0.23
+node_modules/expo
+  peer expo@"^49.0.0" from expo-router@2.0.15
+  node_modules/expo-router
+    expo-router@"^2.0.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

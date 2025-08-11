@@ -1,0 +1,48 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.19.4
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\DELL\Desktop\abhisimplewebapp\.npmrc
+5 silly config load:file:C:\Users\DELL\.npmrc
+6 silly config load:file:C:\Users\DELL\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install react-crud-tailwind-graphql@1.0.0
+8 verbose argv "install" "react-crud-tailwind-graphql@1.0.0"
+9 verbose logfile logs-max:10 dir:C:\Users\DELL\AppData\Local\npm-cache\_logs\2025-08-10T19_31_28_360Z-
+10 verbose logfile C:\Users\DELL\AppData\Local\npm-cache\_logs\2025-08-10T19_31_28_360Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest react-crud-tailwind-graphql@1.0.0
+16 silly packumentCache full:https://registry.npmjs.org/react-crud-tailwind-graphql cache-miss
+17 http fetch GET 404 https://registry.npmjs.org/react-crud-tailwind-graphql 1022ms (cache skip)
+18 silly placeDep ROOT react-crud-tailwind-graphql@ OK for: react-crud-tailwind-graphql@1.0.0 want: 1.0.0
+19 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/react-crud-tailwind-graphql - Not found
+19 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+19 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+19 verbose stack     at async RegistryFetcher.packument (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+19 verbose stack     at async RegistryFetcher.manifest (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+19 verbose stack     at async #fetchManifest (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1199:20)
+19 verbose stack     at async #nodeFromEdge (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1037:19)
+19 verbose stack     at async #buildDepStep (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:901:11)
+19 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+19 verbose stack     at async Promise.all (index 1)
+19 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+20 verbose statusCode 404
+21 verbose pkgid react-crud-tailwind-graphql@1.0.0
+22 error code E404
+23 error 404 Not Found - GET https://registry.npmjs.org/react-crud-tailwind-graphql - Not found
+24 error 404
+25 error 404  'react-crud-tailwind-graphql@1.0.0' is not in this registry.
+26 error 404
+27 error 404 Note that you can also install from a
+28 error 404 tarball, folder, http url, or git url.
+29 silly unfinished npm timer reify 1754854289751
+30 silly unfinished npm timer reify:loadTrees 1754854289758
+31 verbose cwd C:\Users\DELL\Desktop\abhisimplewebapp
+32 verbose os Windows_NT 10.0.19045
+33 verbose node v20.19.4
+34 verbose npm  v10.8.2
+35 verbose exit 1
+36 verbose code 1
+37 error A complete log of this run can be found in: C:\Users\DELL\AppData\Local\npm-cache\_logs\2025-08-10T19_31_28_360Z-debug-0.log

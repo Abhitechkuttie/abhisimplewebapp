@@ -1,0 +1,51 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.19.4
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\DELL\Desktop\abhisimplewebapp\.npmrc
+5 silly config load:file:C:\Users\DELL\.npmrc
+6 silly config load:file:C:\Users\DELL\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\DELL\AppData\Local\npm-cache\_logs\2025-08-10T19_30_52_523Z-
+10 verbose logfile C:\Users\DELL\AppData\Local\npm-cache\_logs\2025-08-10T19_30_52_523Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 silly audit bulk request {
+16 silly audit   '@apollo/client': [ '3.13.9' ],
+16 silly audit   '@graphql-typed-document-node/core': [ '3.2.0' ],
+16 silly audit   '@wry/caches': [ '1.0.1' ],
+16 silly audit   '@wry/context': [ '0.7.4' ],
+16 silly audit   '@wry/equality': [ '0.5.7' ],
+16 silly audit   '@wry/trie': [ '0.5.0' ],
+16 silly audit   graphql: [ '16.11.0' ],
+16 silly audit   'graphql-tag': [ '2.12.6' ],
+16 silly audit   'hoist-non-react-statics': [ '3.3.2' ],
+16 silly audit   'js-tokens': [ '4.0.0' ],
+16 silly audit   'loose-envify': [ '1.4.0' ],
+16 silly audit   'object-assign': [ '4.1.1' ],
+16 silly audit   optimism: [ '0.18.1' ],
+16 silly audit   'prop-types': [ '15.8.1' ],
+16 silly audit   react: [ '18.3.1' ],
+16 silly audit   'react-dom': [ '18.3.1' ],
+16 silly audit   'react-is': [ '16.13.1' ],
+16 silly audit   'react-scripts': [ '0.0.0' ],
+16 silly audit   rehackt: [ '0.1.0' ],
+16 silly audit   scheduler: [ '0.23.2' ],
+16 silly audit   'symbol-observable': [ '4.0.0' ],
+16 silly audit   'ts-invariant': [ '0.10.3' ],
+16 silly audit   tslib: [ '2.8.1' ],
+16 silly audit   'zen-observable': [ '0.8.15' ],
+16 silly audit   'zen-observable-ts': [ '1.2.5' ]
+16 silly audit }
+17 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 642ms
+18 silly audit report {}
+19 verbose cwd C:\Users\DELL\Desktop\abhisimplewebapp
+20 verbose os Windows_NT 10.0.19045
+21 verbose node v20.19.4
+22 verbose npm  v10.8.2
+23 verbose exit 0
+24 info ok
